@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    overflow-x: hidden;
+    background-color: #e2f3f5;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 255, 0);
+}
+
+.navbar .btn {
+    border-radius: 20px !important;
+}
+
+.login{
+    margin-right: 5px;
+}
+
+.marg{
+    margin-right: 20px;
+}
+
+.container-fluid{
+    padding: 0;
+
+}
+.navbar-toggler{
+    background-color: rgba(0, 128, 0, 0.575);
+}
+
+/*---------------------------------------------------------*/
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/BG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.text-section-1{
+    color: rgb(181, 221, 172);
+    position: absolute;
+    left: 100px;
+    top: 25%;
+}
+
+.section-1-header{
+    width: 50%;
+}
+
+/*---------------------------------------------------------------------*/
+.section-2{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-image: url();
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.text-section-2{
+    margin-top: 50px;
+}
+
+.section-2-header{
+    margin-bottom: 50px;
+}
+
+.category-dis{
+    width: 200px;
+    margin: 0 auto;
+}
+.category1{
+
+}
+
+.category2{
+    margin-top: 25px;
+}
+
+.category3{
+    margin-top: 23px;
+}
+/*---------------------------------------------------------------------*/
+
+.section-3{
+    margin-top: 150px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-image: url(../img/statBg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+
+}
+
+.stat{
+    color: white;
+}
+
+.stat i{
+    color: #21e6c1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*---------------------------------------------------------------------*/
+.section-4{
+    text-align: center;
+    width: 100%;
+    height: auto;
+
+}
+
+.team-mem-h{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.card{
+    margin-bottom: 30px;
+}
+
+
+
+/*---------------------------------------------------------------------*/
+
+.section-5{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 200px;
+
+}
+
+.section-5-h{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}

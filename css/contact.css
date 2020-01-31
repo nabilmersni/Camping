@@ -1,0 +1,81 @@
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,246,236,1) 39.5%, rgba(100,46,122,0.23) 100.2% );
+    overflow-x: hidden;
+}
+
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+.mar{
+    margin-right: 40px;
+}
+
+.jumbotron{
+    background: none;
+}
+
+
+.contact-h{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.inputs input{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    height: 45px;
+    border-radius: 30px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    transition: all 0.6s ease;
+    font-size: 18px;
+}
+
+textarea{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: none;
+    outline: none;
+    transition: all 0.6s ease;
+    font-size: 18px;
+}
+
+input:focus{
+    width: 75%;
+}
+
+textarea:focus{
+    width: 75%;
+}
+
+
+.nav-item{
+    margin-right: 20px;
+}
+
+button{
+    border-radius: 100px !important;
+}
+
+.nav-item .login{
+    margin-right: -20px;
+}
+
+.yo{
+    transform: translateX(250%);
+}
+
